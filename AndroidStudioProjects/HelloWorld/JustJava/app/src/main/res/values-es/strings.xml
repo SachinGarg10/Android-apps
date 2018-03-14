@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Ordenar Ordenar</string>
+    <string name="add_chocolate">Agregue el chocolate <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="thank_you">Gracias!</string>
+    <string name="order_summary_name">Nombre: <xliff:g id="addName" example="Sachin">%s</xliff:g></string>
+    <string name="toppings">Ingredientes</string>
+    <string name="whippedCream">Crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Cantidad</string>
+    <string name="numberOfCoffee">1</string>
+    <string name="submitOrder">Ordenar</string>
+    <string name="add_whipped">Agregue la crema batida? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <string name="number_of_cups">Coffee Cantidad:<xliff:g id="numberOfCoffee" example="1">%d</xliff:g></string>
+    <string name="edit_name_hint">Nombre</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="order_summary_email_subject">Ordenar Ordenar: <xliff:g id="name" example="Sachin">%s</xliff:g></string>
+    <string name="total_price">Total: <xliff:g id="price" example="50">%s</xliff:g></string>
+    <string name="too_few_coffee">No se pueden pedir menos de 1 cafe</string>
+    <string name="too_many_coffee">No se pueden pedir mas de 100 cafes</string>
+</resources>

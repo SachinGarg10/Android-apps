@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zombie" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pebble Beach"
+        android:layout_toEndOf="@id/img"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff00ff"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:background="#00ff00"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/pla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="California"
+        android:layout_toEndOf="@id/img"
+        android:layout_below="@id/loc"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ff0000"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:background="#00ffff"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 miles away"
+        android:layout_toEndOf="@id/img"
+        android:layout_below="@id/pla"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#0000ff"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:background="#ff00ff"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:background="#a9a9a9"
+        android:editable="true"
+        android:linksClickable="true"
+        android:password="false"
+        android:text="write"
+        android:textColor="#000000"
+        android:textColorLink="#0000ff"
+        android:layout_below="@id/img"
+        android:autoText="false"
+        android:longClickable="false"
+        android:phoneNumber="false"
+        android:scrollIndicators="top|left|bottom|start|end|right"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textIsSelectable="false"
+        android:textStyle="italic"
+        android:theme="@android:style/Widget.ScrollView"
+        android:id="@+id/editText"
+        android:clickable="true"
+        android:contextClickable="true" />
+
+    <!--<TextView-->
+        <!--android:text="Hello World! I am Sachin Garg"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#00ff00"-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:textSize="35sp"-->
+        <!--android:textColor="#001aff" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textview3"-->
+        <!--android:text="Nice to meet you"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#0000ff"-->
+        <!--android:textSize="35sp"-->
+        <!--android:textColor="#ff0000" />-->
+
+</RelativeLayout>

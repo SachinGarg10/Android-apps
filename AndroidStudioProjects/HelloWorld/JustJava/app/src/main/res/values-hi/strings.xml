@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aadesh Aadesh</string>
+    <string name="edit_name_hint">Naam</string>
+    <string name="thank_you">Dhanaywaad!</string>
+    <string name="order_summary_name">Naam: <xliff:g id="addName" example="Sachin">%s</xliff:g></string>
+    <string name="numberOfCoffee">1</string>
+    <string name="chocolate">Chalklate</string>
+    <string name="whippedCream">Kosa Cream</string>
+    <string name="total_price">Kul Rupees: <xliff:g id="price" example="50">%s</xliff:g></string>
+    <string name="submitOrder">Aadesh</string>
+    <string name="quantity">Matra</string>
+    <string name="number_of_cups">Kul Coffee ke Cup:<xliff:g id="numberOfCoffee" example="1">%d</xliff:g></string>
+    <string name="add_whipped">Kosa Cream dalni h? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <string name="add_chocolate">Chalklate dalni h? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="order_summary_email_subject">Order Order for <xliff:g id="name" example="Sachin">%s</xliff:g></string>
+    <string name="toppings">Toppings</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="too_few_coffee">1 se kam coffee aadesh nhi kr skte</string>
+    <string name="too_many_coffee">100 se jayda coffee aadesh nhi kr skte</string>
+</resources>

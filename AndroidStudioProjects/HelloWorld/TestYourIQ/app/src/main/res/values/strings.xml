@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test Your IQ</string>
+    <string name="first_ques">1. Most populated country in the world.</string>
+    <string name="second_ques">2. Largest film industry in the world.</string>
+    <string name="first_option_sec">Tollywood</string>
+    <string name="second_option_sec">Hollywood</string>
+    <string name="third_option_sec">Bollywood</string>
+    <string name="third_ques">3. Which country will host the 2017 FIFA U-17 World Cup?</string>
+    <string name="first_option_thi">South Korea</string>
+    <string name="second_option_thi">India</string>
+    <string name="third_option_thi">Ireland</string>
+    <string name="fourth_ques">4. Which of the following were the Presidents of INDIA?</string>
+    <string name="first_option_fou">Partibha Patil</string>
+    <string name="second_option_fou">APJ Abdul Kalam</string>
+    <string name="third_option_fou">Jawahar Lal Nehru</string>
+    <string name="fifth_ques">5. Which OS are you using?</string>
+    <string name="answer_editText">answer</string>
+    <string name="submitButton">Submit</string>
+</resources>

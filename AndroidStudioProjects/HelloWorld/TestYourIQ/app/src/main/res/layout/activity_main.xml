@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuesStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/first_ques"/>
+
+                <EditText
+                    android:id="@+id/populated_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:hint="@string/answer_editText"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/QuesStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/second_ques"/>
+
+        </HorizontalScrollView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_q2_op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="onRadioButtonClick"
+                android:text="@string/first_option_sec"/>
+
+            <RadioButton
+                android:id="@+id/radio_q2_op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="onRadioButtonClick"
+                android:text="@string/second_option_sec"/>
+
+            <RadioButton
+                android:id="@+id/radio_q2_op3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="onRadioButtonClick"
+                android:text="@string/third_option_sec"/>
+
+        </RadioGroup>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/QuesStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:singleLine="true"
+                android:text="@string/third_ques"/>
+
+        </HorizontalScrollView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_q3_op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="onRadioButtonClick"
+                android:text="@string/first_option_thi"/>
+
+            <RadioButton
+                android:id="@+id/radio_q3_op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="onRadioButtonClick"
+                android:text="@string/second_option_thi"/>
+
+            <RadioButton
+                android:id="@+id/radio_q3_op3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:onClick="onRadioButtonClick"
+                android:text="@string/third_option_thi"/>
+
+        </RadioGroup>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/QuesStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:singleLine="true"
+                android:text="@string/fourth_ques"/>
+
+        </HorizontalScrollView>
+
+        <CheckBox
+            android:id="@+id/q4_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="24dp"
+            android:text="@string/first_option_fou"/>
+
+        <CheckBox
+            android:id="@+id/q4_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="24dp"
+            android:text="@string/second_option_fou"/>
+
+        <CheckBox
+            android:id="@+id/q4_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="24dp"
+            android:text="@string/third_option_fou"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuesStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fifth_ques"/>
+
+                <EditText
+                    android:id="@+id/os_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:hint="@string/answer_editText"
+                    android:inputType="textCapWords"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submitOrder"
+            android:text="@string/submitButton"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+</ScrollView>
+
